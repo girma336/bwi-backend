@@ -2,9 +2,9 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const swaggerUi = require('swagger-ui-express')
-const userRouter = require('./../src/routes/userRoute');
+const userRouter = require('./src/routes/userRoute');
 const cors = require('cors');
-const swaggerDocumentation = require('./../src/utils/swagger')
+const swaggerDocumentation = require('./src/utils/swagger')
 
 const app = express();
 const url = process.env.MONGO_URI;
