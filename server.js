@@ -18,7 +18,7 @@ mongoose
   })
   .catch((error) => console.error('Error connecting to MongoDB:', error.message));
 
-const allowedOrigins = ['*', 'http://localhost:3000'];
+const allowedOrigins = ['*', 'http://localhost:3000', 'https://girma-bwi-api-v1.onrender.com/'];
 app.use(express.json());
 app.use(cors({ origin: allowedOrigins }));
 

@@ -12,6 +12,10 @@ const swaggerDocumentation = {
             url: "http://localhost:5000/api/v1/users",
             description: "Local Dev",
         },
+        {
+            url: "https://girma-bwi-api-v1.onrender.com/",
+            description: "Host Dev",
+        }
     ],
     tags: [
         {
